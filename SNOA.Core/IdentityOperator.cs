@@ -14,7 +14,7 @@ namespace SNOA.Core
     /// - Identity satisfies: I ∘ L = L ∘ I = L for all L ∈ 𝓛
     /// - Identity satisfies: I ∘ R = R ∘ I = R for all R ∈ 𝓡
     /// - Uses immutable pattern: creates new instance with same values
-        /// - Singleton pattern for efficiency (same identity operator can be reused)
+    /// - Singleton pattern for efficiency (same identity operator can be reused)
     /// - A1 (Closure): I(X) ∈ 𝕏 (returns SNOAObject of same type)
     /// - A2 (Structural Stability): I(X) preserves V, P, σ (all unchanged)
     /// - A6 (Composition): I ∘ f = f ∘ I = f (identity is neutral for composition)

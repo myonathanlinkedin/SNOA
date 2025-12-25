@@ -7,9 +7,9 @@ using SNOA.Core.Examples;
 namespace SNOA.Core.Axioms
 {
     /// <summary>
-    /// Rigorous Proof Validator - Rigorous Proofs via Programming (Property-Based Testing)
-    /// NOT rigorous formal proofs using formal logic. This approach is chosen because:
-                /// - Code execution provides reproducible, verifiable validation
+    /// Proof Validator - Proofs via Programming (Property-Based Testing)
+    /// NOT formal proofs using formal logic. This approach is chosen because:
+    /// - Code execution provides reproducible, verifiable validation
     /// 1. Consistency Proof by Construction (model verification with test cases)
     /// 2. Independence Proofs by Counterexample (proof strategies, some with actual counterexamples)
     /// 3. Theorem Proofs by Property-Based Testing (statistical validation with samples)
@@ -24,7 +24,7 @@ namespace SNOA.Core.Axioms
     public static class RigorousProofValidator
     {
         /// <summary>
-        /// Rigorous Consistency Proof by Construction via Programming
+        /// Consistency Proof by Construction via Programming
         /// 1. Define a concrete model (integers with simple operators)
         /// 2. Verify ALL axioms hold for this model using test cases
         /// 3. Since a model exists satisfying all axioms (for tested cases), axioms are consistent
@@ -123,14 +123,14 @@ namespace SNOA.Core.Axioms
         }
 
         /// <summary>
-        /// Rigorous Independence Proof by Counterexample via Programming
+        /// Independence Proof by Counterexample via Programming
         /// For each axiom A_i, provide a proof strategy showing a model that satisfies ALL other axioms but violates A_i
         /// If such a model can be constructed (conceptually or via code), A_i is independent
         /// - We provide proof strategies for all axioms
         /// - For axioms where counterexample can be constructed, we verify through code
         /// - For axioms where type system prevents actual counterexample, we demonstrate independence conceptually
         /// - Proof strategy existence demonstrates independence
-        /// but proof strategies demonstrate independence conceptually.
+        /// - Proof strategies demonstrate independence conceptually
         /// </summary>
         /// <param name="axiomNumber">Axiom number (0-9) to prove independence for</param>
         /// <returns>True if independence proof succeeds (proof strategy demonstrates independence)</returns>
@@ -155,7 +155,7 @@ namespace SNOA.Core.Axioms
         /// <summary>
         /// Prove A0 Independence: Model without A0 (objects not tuples)
         /// Proof Strategy: Demonstrate that structure requirement is independent
-        /// but we provide proof strategy showing independence conceptually.
+        /// We provide proof strategy showing independence conceptually.
         /// </summary>
         private static bool ProveA0_Independence()
         {
@@ -336,13 +336,13 @@ namespace SNOA.Core.Axioms
         }
 
         /// <summary>
-        /// Rigorous Theorem Proof by Property-Based Testing via Programming
+        /// Theorem Proof by Property-Based Testing via Programming
         /// For finite domains: test representative cases
         /// For infinite domains: property-based testing with statistical samples (100+ cases)
         /// - Tests representative cases for finite domains (not exhaustive, but sufficient)
         /// - Statistical validation for infinite cases (100+ samples provide high confidence)
         /// - Reproducible and verifiable through code execution
-        /// provides high confidence that properties hold.
+        /// - Provides high confidence that properties hold
         /// </summary>
         /// <param name="theoremNumber">Theorem number (3-15) to prove</param>
         /// <returns>True if theorem proof succeeds (property holds for all tested cases)</returns>

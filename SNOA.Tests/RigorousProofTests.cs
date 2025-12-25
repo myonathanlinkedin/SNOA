@@ -5,18 +5,18 @@ using Xunit;
 namespace SNOA.Tests
 {
     /// <summary>
-    /// Rigorous Proof Tests via Programming
+    /// Proof Tests via Programming
         /// 
-    /// IMPORTANT: These are rigorous proofs via programming (property-based testing through code execution),
-    /// NOT rigorous formal proofs using formal logic. This approach is chosen because:
+    /// IMPORTANT: These are proofs via programming (property-based testing through code execution),
+    /// NOT formal proofs using formal logic. This approach is chosen because:
                 /// - Code execution provides reproducible, verifiable validation
     /// 
-    /// These tests provide RIGOROUS PROOFS VIA PROGRAMMING through code execution:
+    /// These tests provide proofs via programming through code execution:
     /// 1. Consistency Proof by Construction (model verification with test cases)
     /// 2. Independence Proofs by Counterexample (proof strategies, some with actual counterexamples)
     /// 3. Theorem Proofs by Property-Based Testing (statistical validation with samples)
     /// 
-    /// These are RIGOROUS VIA PROGRAMMING because they:
+    /// These are proofs via programming because they:
     /// - Test representative cases for finite domains (not exhaustive, but sufficient)
     /// - Provide proof strategies for independence (some with actual counterexamples)
     /// - Use property-based testing for infinite domains (statistical validation with 100+ samples)
@@ -102,7 +102,7 @@ namespace SNOA.Tests
         [Fact]
         public void AllProofs_ShouldSucceed()
         {
-            // Validate all rigorous proofs
+            // Validate all proofs
             var consistency = RigorousProofValidator.ProveConsistency_ByConstruction();
             consistency.Should().BeTrue("Consistency proof should succeed");
 

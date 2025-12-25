@@ -28,12 +28,12 @@ namespace SNOA.Core.CaseStudies
 
         /// <summary>
         /// Helper property: Degree from properties
-                /// </summary>
+        /// </summary>
         public int Degree => (int)(Properties.GetValueOrDefault("degree", 0));
 
         /// <summary>
         /// Helper property: Centrality from properties
-                /// </summary>
+        /// </summary>
         public double Centrality => (double)(Properties.GetValueOrDefault("centrality", 0.0));
     }
 }

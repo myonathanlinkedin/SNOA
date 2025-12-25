@@ -4,6 +4,12 @@
 
 with C# .NET 10 Implementation and Validation
 
+![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-62%20passed-success?style=flat-square)
+
 A C# .NET 10 framework for proofs via programming through property-based testing. SNOA provides a formal algebraic structure for object transformations with validated axioms and comprehensive case studies.
 
 ## Overview

@@ -80,7 +80,7 @@ namespace SNOA.Core.CaseStudies
 
             // Update properties P' = P ∪ {degree: |Neighbors'|, last_modified: DateTime.Now}
             // Degree = number of neighbors (graph theory: degree = |adjacency list|)
-            // This follows MD requirement: "updates degree" when edge is added
+            // Degree is updated when edge is added
             var newProperties = new Dictionary<string, object>(properties)
             {
                 ["degree"] = newNeighbors.Count,  // Updated: degree = new neighbor count

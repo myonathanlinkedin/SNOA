@@ -5,8 +5,8 @@ namespace SNOA.Core.Axioms
 {
     /// <summary>
     /// Axiom Validator
-    /// Note: These are rigorous proofs via programming (property-based testing), NOT rigorous formal proofs using formal logic.
-        /// It validates that axioms hold for tested cases through code execution, providing reproducible, verifiable validation.
+    /// Note: These are proofs via programming (property-based testing), NOT formal proofs using formal logic.
+    /// It validates that axioms hold for tested cases through code execution, providing reproducible, verifiable validation.
     /// </summary>
     public static class AxiomValidator
     {
@@ -125,7 +125,7 @@ namespace SNOA.Core.Axioms
         /// A3: State Mutability - Operators may change state: σ' = T(σ)
         /// State changes are allowed but not required
         /// Identity operator satisfies A3 even though it doesn't change state.
-        /// This is rigorous proof via programming (property-based testing), not rigorous formal proof using formal logic.
+        /// This is proof via programming (property-based testing), not formal proof using formal logic.
         /// </summary>
         /// <typeparam name="TValue">Type of V component (main value)</typeparam>
         /// <typeparam name="TState">Type of σ component (internal state)</typeparam>
@@ -152,7 +152,7 @@ namespace SNOA.Core.Axioms
         /// A4: Property Mutability - Operators may change properties: P' = U(P)
         /// Property changes are allowed but not required
         /// Identity operator satisfies A4 even though it doesn't change properties.
-        /// This is rigorous proof via programming (property-based testing), not rigorous formal proof using formal logic.
+        /// This is proof via programming (property-based testing), not formal proof using formal logic.
         /// </summary>
         /// <typeparam name="TValue">Type of V component (main value)</typeparam>
         /// <typeparam name="TState">Type of σ component (internal state)</typeparam>
@@ -250,7 +250,7 @@ namespace SNOA.Core.Axioms
         /// 4. Return true if results are equal (associativity holds)
         /// A7: Conditional Associativity - For operators f, g, h where state mutations are independent:
         /// ((f ∘ g) ∘ h)(X) = (f ∘ (g ∘ h))(X)
-        /// This is rigorous proof via programming (property-based testing), not rigorous formal proof using formal logic.
+        /// This is proof via programming (property-based testing), not formal proof using formal logic.
         /// It verifies associativity for specific operator instances.
         /// Since both compute f(g(h(X))), they should be equal if state mutations are independent.
         /// </summary>

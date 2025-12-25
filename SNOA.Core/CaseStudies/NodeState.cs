@@ -6,7 +6,7 @@ namespace SNOA.Core.CaseStudies
     /// NodeState: σ component for Dynamic Graph case study
     /// - σ: NodeState represents the internal state component in SNOAObject<GraphData, NodeState>
     /// - Part of SNOA structure: X = (V, P, σ) where σ = NodeState
-        /// - State mutability: Axiom A3 allows state changes σ' = T(σ)
+    /// - State mutability: Axiom A3 allows state changes σ' = T(σ)
     /// - Neighbors: Adjacency list (list of neighbor node IDs)
     /// - Level: Traversal depth (used in BFS/DFS algorithms)
     /// - Visited: Traversal flag (used in graph traversal algorithms)

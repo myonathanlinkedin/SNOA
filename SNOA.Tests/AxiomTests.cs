@@ -11,8 +11,8 @@ namespace SNOA.Tests
     /// <summary>
     /// Axiom Validation Tests
         /// 
-    /// Tests validate axioms through rigorous proofs via programming (property-based testing through code execution).
-    /// Note: These are rigorous proofs via programming (property-based testing), NOT rigorous formal proofs using formal logic.
+    /// Tests validate axioms through proofs via programming (property-based testing through code execution).
+    /// Note: These are proofs via programming (property-based testing), NOT formal proofs using formal logic.
         /// </summary>
     [Collection("AxiomTests")]
     public class AxiomTests : IClassFixture<TestResultsFixture>, IDisposable
