@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-12-25T18:51:58.5590205Z",
+  "totalAxioms": 13,
+  "validatedAxioms": 13,
+  "failedAxioms": 0,
+  "axioms": {
+    "A8_Identity": {
+      "axiomName": "A8_Identity",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5211946Z",
+      "details": "I(X) = X",
+      "metrics": {}
+    },
+    "A7_ConditionalAssociativity": {
+      "axiomName": "A7_ConditionalAssociativity",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5416849Z",
+      "details": "Associative if independent",
+      "metrics": {}
+    },
+    "A3_StateMutability": {
+      "axiomName": "A3_StateMutability",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5419111Z",
+      "details": "Operators may change state: \u03C3\u0027 = T(\u03C3)",
+      "metrics": {}
+    },
+    "A0_Domain": {
+      "axiomName": "A0_Domain",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5420814Z",
+      "details": "All objects are tuples X = (V, P, \u03C3)",
+      "metrics": {}
+    },
+    "A4_PropertyMutability": {
+      "axiomName": "A4_PropertyMutability",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.542304Z",
+      "details": "Operators may change properties: P\u0027 = U(P)",
+      "metrics": {}
+    },
+    "A2_StructuralStability": {
+      "axiomName": "A2_StructuralStability",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5424439Z",
+      "details": "V, P, \u03C3 all remain present",
+      "metrics": {}
+    },
+    "A1_Closure_Left": {
+      "axiomName": "A1_Closure_Left",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5432368Z",
+      "details": "L(X) \u2208 \uD835\uDD4F",
+      "metrics": {}
+    },
+    "A5_Noncommutativity": {
+      "axiomName": "A5_Noncommutativity",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5479179Z",
+      "details": "\u2203 L, R, X: (L \u2218 R)(X) \u2260 (R \u2218 L)(X)",
+      "metrics": {}
+    },
+    "A1_Closure_Right": {
+      "axiomName": "A1_Closure_Right",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5482067Z",
+      "details": "R(X) \u2208 \uD835\uDD4F",
+      "metrics": {}
+    },
+    "A6_Composition": {
+      "axiomName": "A6_Composition",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5484811Z",
+      "details": "(f \u2218 g)(X) = f(g(X))",
+      "metrics": {}
+    },
+    "A9_Implementability_Left": {
+      "axiomName": "A9_Implementability_Left",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5486293Z",
+      "details": "Every operator L \u2208 \uD835\uDCDB can be implemented",
+      "metrics": {}
+    },
+    "A8_Identity_Composition": {
+      "axiomName": "A8_Identity_Composition",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5489469Z",
+      "details": "I \u2218 f = f \u2218 I = f",
+      "metrics": {}
+    },
+    "A9_Implementability_Right": {
+      "axiomName": "A9_Implementability_Right",
+      "validated": true,
+      "timestamp": "2025-12-25T18:51:58.5490932Z",
+      "details": "Every operator R \u2208 \uD835\uDCE1 can be implemented",
+      "metrics": {}
+    }
+  }
+}
